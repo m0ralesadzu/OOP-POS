@@ -29,7 +29,6 @@ public class POSjframe extends javax.swing.JFrame {
 
         jPanel3 = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
-        jButton13 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
         jButton16 = new javax.swing.JButton();
         jButton18 = new javax.swing.JButton();
@@ -100,11 +99,6 @@ public class POSjframe extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jButton13.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
-        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/steak.jpg"))); // NOI18N
-        jButton13.addActionListener(this::jButton13ActionPerformed);
-        jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 260, 180, 190));
 
         jButton14.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
         jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/spaghetti.jpg"))); // NOI18N
@@ -381,10 +375,6 @@ public class POSjframe extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton14ActionPerformed
 
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton13ActionPerformed
-
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton18ActionPerformed
@@ -467,7 +457,6 @@ public class POSjframe extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton18;
