@@ -34,6 +34,7 @@ public class POSjframe extends javax.swing.JFrame {
         jButton16 = new javax.swing.JButton();
         jButton18 = new javax.swing.JButton();
         jButton19 = new javax.swing.JButton();
+        jButton20 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jbtnClear = new javax.swing.JButton();
         jbtn7 = new javax.swing.JButton();
@@ -122,10 +123,16 @@ public class POSjframe extends javax.swing.JFrame {
         jPanel1.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 260, 180, 190));
 
         jButton19.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
-        jButton19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/burger.jpg"))); // NOI18N
+        jButton19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/chicken.jpg"))); // NOI18N
         jButton19.setPreferredSize(new java.awt.Dimension(1536, 1536));
         jButton19.addActionListener(this::jButton19ActionPerformed);
-        jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 180, 190));
+        jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 30, 180, 190));
+
+        jButton20.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
+        jButton20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/burger.jpg"))); // NOI18N
+        jButton20.setPreferredSize(new java.awt.Dimension(1536, 1536));
+        jButton20.addActionListener(this::jButton20ActionPerformed);
+        jPanel1.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 180, 190));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 190, 640, 480));
 
@@ -441,6 +448,10 @@ public class POSjframe extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton19ActionPerformed
 
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton20ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -472,6 +483,7 @@ public class POSjframe extends javax.swing.JFrame {
     private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
+    private javax.swing.JButton jButton20;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
