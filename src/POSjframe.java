@@ -31,7 +31,6 @@ public class POSjframe extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jButton13 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
         jButton16 = new javax.swing.JButton();
         jButton18 = new javax.swing.JButton();
         jButton19 = new javax.swing.JButton();
@@ -112,11 +111,6 @@ public class POSjframe extends javax.swing.JFrame {
         jButton14.setPreferredSize(new java.awt.Dimension(1536, 1536));
         jButton14.addActionListener(this::jButton14ActionPerformed);
         jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 260, 180, 190));
-
-        jButton15.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
-        jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/chicken.jpg"))); // NOI18N
-        jButton15.addActionListener(this::jButton15ActionPerformed);
-        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 30, 180, 190));
 
         jButton16.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
         jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/coke.jpg"))); // NOI18N
@@ -387,10 +381,6 @@ public class POSjframe extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton14ActionPerformed
 
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton15ActionPerformed
-
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton13ActionPerformed
@@ -479,7 +469,6 @@ public class POSjframe extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
